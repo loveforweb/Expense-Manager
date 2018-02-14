@@ -71,4 +71,4 @@ const mapDispatchToProps = (dispatch) => ({
     setEndDate: (startDate) => dispatch(setEndDate(endDate))
 })
 
-export default connect(mapStateToProps)(ExpenseListFilters);
+export default connect(mapStateToProps, mapDispatchToProps)(ExpenseListFilters);
