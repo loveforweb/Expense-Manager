@@ -1,0 +1,22 @@
+html {
+    font-size: 62.5%;
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: $m-size; 
+    background: white;
+}
+
+button {
+    cursor: pointer;
+
+    &:disabled {
+        cursor: default;
+    }
+}
+
+.is-active {
+    font-weight: bold;
+}

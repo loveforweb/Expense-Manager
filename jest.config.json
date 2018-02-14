@@ -1,0 +1,12 @@
+{
+	"setupFiles": [
+		"raf/polyfill",
+		"<rootDir>/src/tests/setupTests.js"
+	],
+    "transform": {
+      "^.+\\.jsx?$": "babel-jest"
+	},
+	"snapshotSerializers": [
+		"enzyme-to-json/serializer"
+	]
+}
