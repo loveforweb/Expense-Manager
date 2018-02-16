@@ -66,11 +66,11 @@ test('should set new date on date change', () => {
 });
 
 // onFocusChange
-test('should set calender focus on change', () => {
+test('should set calendar focus on change', () => {
     const focused = true;
     const wrapper = shallow(<ExpenseForm />);
     wrapper.find(SingleDatePicker).prop('onFocusChange')({focused});
-    expect(wrapper.state('calenderFocused')).toBe(focused);
+    expect(wrapper.state('calendarFocused')).toBe(focused);
 });
 
 // onFormSubmit ERROR
